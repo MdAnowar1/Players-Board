@@ -56,7 +56,7 @@ start blogs part
     align-items: center;
 } */
 .blogs{
-    padding-left: 25px;
+    padding-left: 5px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
@@ -69,4 +69,30 @@ start blogs part
     padding-right: 20px;
     font-size: 20px;
     color: #000000;
+}
+.course-img{
+    width: 224px;
+    height: 104px;
+}
+.course-title{
+    font-size: 20px;
+    color: #1E1E1E;
+}
+small{
+    color: #ED6B4F;
+}
+.fa-star.filled{
+    color: #FFC014;
+}
+.fa-star.empty{
+    color: #AEAEAE;
+}
+.star{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.main-course{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
 }
