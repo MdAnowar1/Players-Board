@@ -41,3 +41,32 @@ main{
     color:#000000;
     font-size: 18px;
 }
+/* ----------------------
+start blogs part
+---------------------- */
+.h3-title{
+    padding-top: 30px;
+}
+.blog-img{
+    width: 177px;
+    height: 117px;
+}
+/* .text-title{
+    display: flex;
+    align-items: center;
+} */
+.blogs{
+    padding-left: 25px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.blog{
+    display: flex;
+    padding-bottom: 26px;
+}
+.blog-info{
+    padding-left: 16px;
+    padding-right: 20px;
+    font-size: 20px;
+    color: #000000;
+}
