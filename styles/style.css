@@ -1,0 +1,43 @@
+body{
+    background-color:  #E5E5E5;
+    font-family: 'Poppins', sans-serif;
+}
+main{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    background-color: #FFFFFF;
+    width: 870px;
+    padding: 30px;
+    border-radius: 5px;
+}
+.players-demo{
+
+}
+.h3-title{
+    color: #562EFF;
+    font-size: 24px;
+    /* padding-left: 30px; */
+    margin-top: 3px;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* padding-left: 30px; */
+    grid-row-gap: 30px;
+}
+.player img{
+    width: 56px;
+    height: 56px;
+}
+.player{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+.player span{
+    padding-left: 16px;
+    color:#000000;
+    font-size: 18px;
+}
