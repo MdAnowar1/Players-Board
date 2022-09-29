@@ -2,6 +2,18 @@ body{
     background-color:  #E5E5E5;
     font-family: 'Poppins', sans-serif;
 }
+.heading-icons{
+    background-color: #562EFF;
+}
+.anchor{
+    font-size: 16px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.align-items{
+    position: relative;
+    justify-content: flex-end;
+}
 main{
     display: flex;
     justify-content: center;
@@ -132,4 +144,27 @@ span{
 .fa-clock.sizing{
     color:  #FF4A60;
     font-size: 16px;
+}
+/* -----------------------
+Media Quaries
+----------------------- */
+@media only screen and (max-width: 688px){
+    .container{
+        width: 100%;
+    }
+    .players{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .player{
+        flex-direction: column;
+    }
+    .blogs{
+        grid-template-columns: repeat(1, 1fr); 
+    }
+    .blog{
+        flex-direction: column;
+    }
+    .total-course{
+        grid-template-columns: repeat(1, 1fr); 
+    }
 }
