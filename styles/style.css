@@ -12,9 +12,7 @@ main{
     padding: 30px;
     border-radius: 5px;
 }
-.players-demo{
 
-}
 .h3-title{
     color: #562EFF;
     font-size: 24px;
@@ -70,15 +68,39 @@ start blogs part
     font-size: 20px;
     color: #000000;
 }
-.course-img{
+/* -----------------------
+start courses part
+----------------------- */
+.container-two{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    
+}
+.last-article{
+    background-color: #FFFFFF;
+    width: 870px;
+    border-radius: 5px;
+    padding: 30px;
+}
+.total-course{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.per-course{
+    padding-left: 30px;
+}
+.images-size{
     width: 224px;
     height: 104px;
 }
-.course-title{
+.paragraph{
     font-size: 20px;
     color: #1E1E1E;
 }
 small{
+    font-size: 14px;
     color: #ED6B4F;
 }
 .fa-star.filled{
@@ -92,7 +114,22 @@ small{
     align-items: center;
     justify-content: space-between;
 }
-.main-course{
+/* .main-course{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+} */
+.fonts-icon{
+    display: flex;
+    justify-content: space-between;
+}
+.timing-hrs span{
+    padding-left: 30px;
+}
+span{
+    color:  #FF4A60;
+    font-size: 16px;
+}
+.fa-clock.sizing{
+    color:  #FF4A60;
+    font-size: 16px;
 }
